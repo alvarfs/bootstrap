@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.title{
+    text-align: center;
+    padding: 69px;
+}
+
+.carousel-inner{
+    text-align: center;
+}
