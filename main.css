@@ -4,10 +4,6 @@ body{
     text-align: center;
 }
 
-.title{
-    padding: 69px;
-}
-
 .imagenes {
     justify-content: center;
     gap: 16px;
@@ -15,6 +11,14 @@ body{
 
 .row {
     padding: 40px 0;
+}
+
+.info{
+    justify-content: center;
+}
+
+.mail{
+    text-align: left;
 }
 
 .box{
