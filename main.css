@@ -1,13 +1,26 @@
 body{
     background-color: black;
     color: white;
+    text-align: center;
 }
 
 .title{
-    text-align: center;
     padding: 69px;
 }
 
-.carousel-inner{
-    text-align: center;
+.imagenes {
+    justify-content: center;
+    gap: 16px;
+}
+
+.row {
+    padding: 40px 0;
+}
+
+.box{
+    border-top: 20px black solid;
+    border-bottom: 10px black solid;
+    -webkit-box-shadow: 0px 0px 10px 10px rgba(18,227,28,1);
+    -moz-box-shadow: 0px 0px 10px 10px rgba(18,227,28,1);
+    box-shadow: 0px 0px 10px 10px rgba(18,227,28,1);
 }
