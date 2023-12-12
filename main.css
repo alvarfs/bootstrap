@@ -4,13 +4,21 @@ body{
     text-align: center;
 }
 
+.row {
+    padding: 40px 0;
+}
+
+.box{
+    border-top: 24px black solid;
+    border-bottom: 10px black solid;
+    -webkit-box-shadow: 0px 0px 10px 10px rgba(18,227,28,1);
+    -moz-box-shadow: 0px 0px 10px 10px rgba(18,227,28,1);
+    box-shadow: 0px 0px 10px 10px rgba(18,227,28,1);
+}
+
 .imagenes {
     justify-content: center;
     gap: 16px;
-}
-
-.row {
-    padding: 40px 0;
 }
 
 .info{
@@ -19,12 +27,4 @@ body{
 
 .mail{
     text-align: left;
-}
-
-.box{
-    border-top: 20px black solid;
-    border-bottom: 10px black solid;
-    -webkit-box-shadow: 0px 0px 10px 10px rgba(18,227,28,1);
-    -moz-box-shadow: 0px 0px 10px 10px rgba(18,227,28,1);
-    box-shadow: 0px 0px 10px 10px rgba(18,227,28,1);
 }
